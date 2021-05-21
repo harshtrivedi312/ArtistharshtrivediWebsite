@@ -2,19 +2,42 @@
   "name": "artistharshtrivedi",
   "version": "0.1.0",
   "private": true,
+  "homepage": "http://harshtrivedi312.github.io/ArtistharshtrivediWebsite",
   "dependencies": {
     "@testing-library/jest-dom": "^4.2.4",
     "@testing-library/react": "^9.5.0",
     "@testing-library/user-event": "^7.2.1",
+    "bootstrap": "^4.5.0",
+    "next": "^9.5.3",
+    "next-redux-wrapper": "^6.0.2",
     "react": "^16.13.1",
+    "react-accessible-accordion": "^3.3.3",
+    "react-bootstrap": "^1.3.0",
     "react-dom": "^16.13.1",
-    "react-scripts": "3.4.1"
+    "react-modal-video": "^1.2.5",
+    "react-owl-carousel3": "^2.2.5",
+    "react-prism": "^4.3.2",
+    "react-redux": "^7.2.1",
+    "react-router": "^5.2.0",
+    "react-router-dom": "^5.2.0",
+    "react-scripts": "^3.4.3",
+    "react-select": "^3.1.0",
+    "react-toastify": "^6.0.8",
+    "react-typical": "^0.1.3",
+    "reactstrap": "^8.5.1",
+    "redux": "^4.0.5",
+    "redux-devtools-extension": "^2.13.8",
+    "redux-thunk": "^2.3.0",
+    "sass": "^1.26.11",
+    "video-react": "^0.14.1"
   },
   "scripts": {
-    "start": "react-scripts start",
+    "start": "set PORT=8080 && react-scripts start",
     "build": "react-scripts build",
     "test": "react-scripts test",
-    "eject": "react-scripts eject"
+    "eject": "react-scripts eject",
+    "predeploy":"npm run build",
+    "deploy":"artistharshtrivedi -d build",
   },
   "eslintConfig": {
     "extends": "react-app"
@@ -30,5 +53,9 @@
       "last 1 firefox version",
       "last 1 safari version"
     ]
+  },
+  "devDependencies": {
+    "file-loader": "^6.0.0",
+    "url-loader": "^4.1.0"
   }
 }
