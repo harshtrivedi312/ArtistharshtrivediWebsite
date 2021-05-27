@@ -1,9 +1,9 @@
+/* eslint-disable jsx-a11y/no-redundant-roles */
 import React from 'react';
-import '/artistharshtrivediwebsite/artistharshtrivedi/artistharshtrivedi/src/Assets/vendor/boxicons/css/boxicons.css';
-import logo from '/artistharshtrivediwebsite/artistharshtrivedi/artistharshtrivedi/src/Assets/img/harsh_BW.png';
-import '/artistharshtrivediwebsite/artistharshtrivedi/artistharshtrivedi/src/Assets/vendor/owl.carousel/assets/owl.carousel.min.css';
-
-
+import logo from '../../Assets/img/harsh_BW.png';
+import 'owl.carousel/dist/assets/owl.carousel.css';
+import 'owl.carousel/dist/assets/owl.theme.default.css';
+import 'boxicons';
 
 export default class Contactus extends React.Component {
   render() {

@@ -1,7 +1,7 @@
 import React, { Component } from 'react';
-import '/artistharshtrivediwebsite/artistharshtrivedi/artistharshtrivedi/src/Assets/vendor/owl.carousel/assets/owl.carousel.min.css';
 import Typical from 'react-typical'
-
+import 'owl.carousel/dist/assets/owl.carousel.css';
+import 'owl.carousel/dist/assets/owl.theme.default.css';
 
 
 

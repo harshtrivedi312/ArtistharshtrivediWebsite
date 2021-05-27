@@ -1,6 +1,6 @@
 import React from 'react';
 // import Link from 'next/link';
-import img from '/artistharshtrivediwebsite/artistharshtrivedi/artistharshtrivedi/src/Assets/img/portfolio-details-img.jpg'
+import img from '../../Assets/img/portfolio-details-img.jpg'
 
 const PortfolioDetailsContent = () => {
     return (
